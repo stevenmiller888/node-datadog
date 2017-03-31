@@ -1,0 +1,24 @@
+{
+  "name": "node-datadog",
+  "version": "0.0.0",
+  "description": "A Node.js client for Datadog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "coverage": "nyc --reporter=lcov --reporter=html ava",
+    "clean": "rm -rf node_modules coverage .nyc_output"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-eslint": "^7.2.1",
+    "nyc": "^10.2.0",
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
