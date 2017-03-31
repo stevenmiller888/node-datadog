@@ -1,6 +1,6 @@
 {
   "name": "node-datadog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Node.js client for Datadog.",
   "main": "index.js",
   "scripts": {
